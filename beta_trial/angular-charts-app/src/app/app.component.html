@@ -1,0 +1,10 @@
+<!-- source: https://www.positronx.io/angular-chart-js-tutorial-with-ng2-charts-examples/
+source2: https://stackblitz.com/edit/angular-excel-read-table -->
+
+<div class="container">
+  <h1>Stock markert charting application</h1>
+    <a [routerLink]="['line-chart']">Line chart</a> | 
+    <a [routerLink]="['bar-chart']">Bar chart</a> |
+    <a [routerLink]="['upload-excel']">Upload Excel</a>
+    <router-outlet></router-outlet>
+</div>

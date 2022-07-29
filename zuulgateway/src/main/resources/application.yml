@@ -1,0 +1,4 @@
+jwt:
+  secret: insertkey
+  username: admin
+  password: admin
